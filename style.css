@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.left-container {
+  /* border: 1px solid red; */
+  /* overflow-y: scroll; */
+}
+.right-container {
+  /* border: 1px solid green; */
+}
+#female-img {
+  display: none;
+  width: 50%;
+}
+#male-img {
+  display: none;
+  width: 50%;
+}
+.spinner {
+  display: none;
+}

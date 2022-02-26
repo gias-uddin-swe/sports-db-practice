@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports DB</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="row w-100 m-auto">
+      <div class="left-container text-center col-md-6 mt-5 p-5">
+        <div class="input-area w-75 m-auto">
+            
+            <div class="input-group mb-3">
+                <input id="search-box" type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <span onclick="allTeams()" class="input-group-text" id="search-btn">Search
+                </div>
+              </div>
+              <div id="spinner" class="spinner">
+                <img src="./images/spinnervlll.gif" alt="">
+            </div>
+              
+        </div>
+        
+        <div class="team-container row" id="team-container"></div>
+      </div>
+
+      <!-- left area  -->
+      <div class="right-container text-center col-md-6 mt-5 p-5">
+        <h1>Player Details</h1>
+        <div class="conditional-img w-100 m-auto">
+            <img id="female-img" class="w-50" src="./images/female.png" alt="">
+            <img id="male-img" class="w-50" src="./images/male.png" alt="">
+        </div>
+        <div class="team-details-container" id="team-details-container"></div>
+      </div>
+    </div>
+    <!-- add script  -->
+    <script src="./app.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
